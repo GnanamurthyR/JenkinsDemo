@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class MyController {
 
+    //Get
     @GetMapping("/aws")
     public String getString() {
         return "Yeah it's Working";
